@@ -87,4 +87,4 @@
 •	Validaciones de Cliente
 •	Cálculo de impuestos (15%)
 •	Códigos de estado HTTP
-•	💡Dudas con el calculo de totales en el encabezado de la orden, viendo el ejemplo proporcionado, mis totales no coinden, haciendo un revision sospecho que hay un cargo a gravado que no estoy aplicando, como no se el valor de ese cargo prefiero no aplicarlo, pero me gustaria saber el feed back y la solucion que me hizo falta aplicar para poder aprenderlo. Gracias de antemano.
+•	💡Dudas con el cálculo de totales en el encabezado de la orden, viendo el ejemplo proporcionado, mis totales no coinciden, haciendo una revisión sospecho que hay un cargo gravado que no estoy aplicando, como no sé cuál el valor de ese cargo prefiero no aplicarlo, con algunas herramientas sospecho que el valor gravado es de 110 pero, en un ambiente real suponer siempre es un gran error que puede llevar a errores de operación en producción por lo que en todo caso prefiero preguntar a mi PO o aun stakeholder. Me gustaría saber mediante su feedback el cálculo correcto de los totales del encabezado sino es mucha la molestia. Gracias de antemano.
