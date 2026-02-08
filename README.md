@@ -83,6 +83,7 @@
 •	Manejo de errores
 •	Índices en base de datos
 7.	✅ Estructura del proyecto (árbol de directorios)
+```text
 OrderManagementAPI/
 ├── Controllers/
 │   ├── ClientesController.cs
@@ -141,7 +142,7 @@ OrderManagementAPI/
 ├── appsettings.Development.json
 ├── Program.cs
 └── OrderManagementAPI.csproj
-
+```
 8.	✅ Notas adicionales:
 •	Validaciones de Cliente
 •	Cálculo de impuestos (15%)
