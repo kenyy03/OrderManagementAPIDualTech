@@ -83,6 +83,65 @@
 •	Manejo de errores
 •	Índices en base de datos
 7.	✅ Estructura del proyecto (árbol de directorios)
+OrderManagementAPI/
+├── Controllers/
+│   ├── ClientesController.cs
+│   ├── ProductosController.cs
+│   ├── OrdenesController.cs
+│   └── Extensions/
+│       └── ApiResponseExtensions.cs
+│
+├── Services/
+│   ├── ClienteService.cs
+│   ├── ProductoService.cs
+│   ├── OrdenService.cs
+│   └── DependencyInjection.cs
+│
+├── Data/
+│   ├── ApplicationDbContext.cs
+│   ├── DependencyInjection.cs
+│   ├── Maps/
+│   │   ├── ClienteMap.cs
+│   │   ├── ProductoMap.cs
+│   │   ├── OrdenMap.cs
+│   │   └── DetalleOrdenMap.cs
+│   │
+│   └── Uow/
+│       ├── Repository.cs
+│       ├── UnitOfWork.cs
+│       ├── UnitOfWorkFactory.cs
+│       ├── RegisterUnitOfWork.cs
+│       ├── Enums/
+│       │   └── UnitOfWorkType.cs
+│       └── Interfaces/
+│           ├── IRepository.cs
+│           ├── IUnitOfWork.cs
+│           └── IUnitOfWorkFactory.cs
+│
+├── DTOs/
+│   ├── ApiResponse.cs
+│   ├── ClienteDto.cs
+│   ├── ProductoDto.cs
+│   ├── OrdenDto.cs
+│   └── DetalleOrdenDto.cs
+│
+├── Models/
+│   ├── Cliente.cs
+│   ├── Producto.cs
+│   ├── Orden.cs
+│   └── DetalleOrden.cs
+│
+├── Common/
+│   ├── MapProfileConfig.cs
+│   └── Constants/
+│       ├── Messages.cs
+│       └── ConstantsValues.cs
+│
+├── appsettings.json
+├── appsettings.Development.json
+├── Program.cs
+└── OrderManagementAPI.csproj
+
 8.	✅ Notas adicionales:
 •	Validaciones de Cliente
 •	Cálculo de impuestos (15%)
