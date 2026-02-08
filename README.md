@@ -6,6 +6,7 @@
 •	Restaurar dependencias
 •	Configurar cadena de conexión
 3.	✅ Script completo de base de datos:
+``` text
     CREATE DATABASE OrderManagementDB;
     GO
     USE OrderManagementDB;
@@ -61,16 +62,16 @@
     ('Teclado Mecánico Keychron K2', 'Teclado mecánico retroiluminado', 89.99, 75),
     ('Monitor LG 27" 4K', 'Monitor 4K UHD', 449.99, 30),
     ('Webcam Logitech C920', 'Webcam Full HD 1080p', 79.99, 100);
-
-4.	✅ Instrucciones de ejecución:
+```
+5.	✅ Instrucciones de ejecución:
 •	Cnfigurar cadena de conexión en appsettings.json
 •	Ejecutar solución en Visual Studio o usar dotnet CLI
-5.	✅ Documentación completa de todos los endpoints:
+6.	✅ Documentación completa de todos los endpoints:
 •	Clientes: GET (todos), GET (por ID), POST, PUT
 •	Productos: GET (todos), GET (por ID), POST, PUT, DELETE
 •	Órdenes: POST
 •	Health Check: GET
-6.	✅ Decisiones técnicas importantes:
+7.	✅ Decisiones técnicas importantes:
 •	Arquitectura en capas
 •	Repository Pattern (con código de ejemplo)
 •	Unit of Work Pattern (con código de ejemplo)
@@ -82,7 +83,7 @@
 •	Validaciones de negocio
 •	Manejo de errores
 •	Índices en base de datos
-7.	✅ Estructura del proyecto (árbol de directorios)
+8.	✅ Estructura del proyecto (árbol de directorios)
 ```text
 OrderManagementAPI/
 ├── Controllers/
